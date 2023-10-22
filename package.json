@@ -1,0 +1,57 @@
+{
+  "name": "openfrp-api",
+  "description": "OpenFrp APIs",
+  "version": "1.0.0",
+  "author": {
+    "name": "lZiMUl",
+    "email": "AA2908554069@gmail.com",
+    "url": "https://b23.tv/vUMYbj"
+  },
+  "contributors": [
+    {
+      "name": "lZiMUl",
+      "email": "AA2908554069@gmail.com",
+      "url": "https://b23.tv/vUMYbj"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "lZiMUl",
+      "email": "AA2908554069@gmail.com",
+      "url": "https://b23.tv/vUMYbj"
+    }
+  ],
+  "homepage": "https://b23.tv/vUMYbj",
+  "main": "./build/index.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "node ./tests/index.js"
+  },
+  "keywords": [
+    "lZiMUl",
+    "OpenFrp",
+    "API"
+  ],
+  "dependencies": {
+    "axios": "^1.5.1",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.2",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lZiMUl/OpenFrp-APIs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lZiMUl/OpenFrp-APIs/issues/",
+    "email": "AA2908554069@gmail.com"
+  },
+  "private": false,
+  "preferGlobal": true,
+  "deprecated": false
+}
