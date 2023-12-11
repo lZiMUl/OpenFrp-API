@@ -1,34 +1,34 @@
 {
   "name": "openfrp-api",
-  "description": "OpenFrp APIs",
-  "version": "1.0.0",
+  "description": "OpenFrp API",
+  "version": "1.0.1",
   "author": {
     "name": "lZiMUl",
     "email": "AA2908554069@gmail.com",
-    "url": "https://b23.tv/vUMYbj"
+    "url": "https://lzimul.top"
   },
   "contributors": [
     {
       "name": "lZiMUl",
       "email": "AA2908554069@gmail.com",
-      "url": "https://b23.tv/vUMYbj"
+      "url": "https://lzimul.top"
     }
   ],
   "maintainers": [
     {
       "name": "lZiMUl",
       "email": "AA2908554069@gmail.com",
-      "url": "https://b23.tv/vUMYbj"
+      "url": "https://lzimul.top"
     }
   ],
-  "homepage": "https://b23.tv/vUMYbj",
+  "homepage": "https://lzimul.top",
   "main": "./build/index.js",
   "license": "GPL-3.0",
   "scripts": {
     "start": "node .",
     "build": "tsc",
-    "dev": "tsc -w",
-    "test": "node ./tests/index.js"
+    "dev": "tsc && node .",
+    "test": "node test/index.js"
   },
   "keywords": [
     "lZiMUl",
