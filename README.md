@@ -14,7 +14,7 @@ import OpenFrp, {LoginInfo, UserInfo} from 'oaci';
 const openFrp: OpenFrp = new OpenFrp('Username', 'Password');
 const userInfo: UserInfo = await openFrp.getUserInfo;
 
-const getRawData: LoginInfo = openFrp.getRawData(); // session, authorization, cookie;
+const Sign: LoginInfo = await openFrp.Sign;
 
-info(userInfo, getRawData);
+info(userInfo, Sign);
 ```
